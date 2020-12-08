@@ -1,0 +1,21 @@
+
+<div id="whole">
+    <table align="center">
+        <tr><th colspan="2" align="center">Activity</th></tr>
+        <tr><td>Activity :</td><td>{{activities.activity}}</td></tr>
+        <tr><td>Type :</td><td>{{activities.type}}</td></tr>
+        <tr><td>Participants :</td><td>{{activities.participants}}</td></tr>
+        <tr><td>price :</td><td>{{activities.price}}</td></tr>
+        <tr><td>Link :</td><td>{{activities.link}}</td></tr>
+        <tr><td>Key :</td><td>{{activities.key}}</td></tr>
+        <tr><td>Accessibility :</td><td>{{activities.accessibility}}</td></tr>
+    </table>
+
+<div *ngIf="boolean" >
+    <input type="button" (click)="interested()" value="Interested">
+    <input type="button" (click)="notInterested()" value="Not Interested">
+</div>
+<div *ngIf="!boolean">
+    <h3>We are glad to help you..!</h3>
+</div>
+</div>

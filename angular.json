@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "funactivities"
+    }
+  },
+  "defaultProject": "funactivities",
+  "cli": {
+    "analytics": false
+  }
 }
